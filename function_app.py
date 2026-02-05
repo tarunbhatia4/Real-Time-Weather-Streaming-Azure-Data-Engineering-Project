@@ -241,7 +241,7 @@ def weatherApiFunction(myTimer: func.TimerRequest) -> None:
     
     def fetch_weather_data():
         base_url = "http://api.weatherapi.com/v1"
-        location = "Regina"  # Replace with your city
+        location = "Chennai"  # "Regina" # Replace with your city
 
         # Fetch the API key from Key Vault
         VAULT_URL = "https://kvrbac-weather-streaming.vault.azure.net/"
